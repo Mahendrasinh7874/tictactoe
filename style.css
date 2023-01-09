@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    padding: 30px 0;
+    padding-bottom: 100px;
+    height: 100vh;
+    margin: 0  auto;
+   
+    width: 60%;
+    border: 2px solid black;
+}
+.pb{
+    margin-bottom: 70px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.main span{
+    display: flex;
+    justify-content: center;}
+.pad{
+padding: 30px 0;
+}
+.text-center{
+    text-align: center;
+}
+.h2-center{
+    margin-bottom: 20px;
+    font-size: 40px;
+    text-align: center;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.box{
+    font-size: 50px;
+    border-radius: 8px;
+    height: 124px;
+    width: 146px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+}
+.box:hover{
+    background-color: rgb(230, 221, 221);
+}
+.player1{
+    color: red;
+    background-color: rgb(236, 185, 122);
+}
+.player0{
+    color: blue;
+    background-color: bisque;
+}
+.btnfor{
+    margin: 30px 300px;
+    text-align: center;
+    padding: 10px 30px;
+    border: 1px solid grey;
+    border-radius: 8px;
+}
+
+.btnfor:hover{
+    background-color: rgb(203, 124, 5);
+    color: white;
+    transition: all 0.4s ease-in-out;
+    /* border: none; */
+}

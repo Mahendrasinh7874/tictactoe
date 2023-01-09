@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <h2 class="h2-center">Tic Tac Game</h2>
+        <p class="text-center ">Player will start with X... </p>
+        <p class="text-center" style="padding-top: 20px;">Current Player :<span class="active-player text-center" style="padding-bottom: 20px;"> </span></p>
+        <div class="row">
+            <div class="box" ></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+        <div class="row">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+        <div class="row">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+
+        <span class="notif" style="padding-top: 50px;"></span>
+        <a href="index.html"><button class="btnfor" id="btnfor">Reset</button></a>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.all.min.js"></script>  
+    <script src="tic-toe.js"></script>
+</body>
+</html>
